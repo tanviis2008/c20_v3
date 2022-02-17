@@ -86,7 +86,9 @@ function draw(){
   ellipse(particle5.position.x,particle5.position.y,10);
 
   //created shape for all the rotators
-  Matter.Body.rotate(rotator1,angle1)
+ // Matter.Body.rotate(rotator1,angle1)
+    //  matter.Body.rotate(rotator1,angle1)
+    //  Matter.body.rotate(rotator1,angle1)
   push();
   translate(rotator1.position.x,rotator1.position.y);
   rotate(angle1);
